@@ -9,33 +9,58 @@
 namespace AppBundle\Entity;
 
 
+use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
 
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="user")
+ */
 class User implements UserInterface
 {
-    public function getRoles()
-    {
-        // TODO: Implement getRoles() method.
-    }
+    /**
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     * @ORM\Column(type="integer")
+     */
+    private $id;
 
-    public function getPassword()
-    {
-        // TODO: Implement getPassword() method.
-    }
+    /**
+     * @ORM\Column(type="string")
+     */
+    private $email;
 
-    public function getSalt()
+    /**
+     * @param mixed $email
+     */
+    public function setEmail($email)
     {
-        // TODO: Implement getSalt() method.
+        $this->email = $email;
     }
 
     public function getUsername()
     {
-        // TODO: Implement getUsername() method.
+        return $this->email;
+    }
+
+    public function getRoles()
+    {
+        return ['ROLE_USER'];
+    }
+
+    public function getPassword()
+    {
+
+    }
+
+    public function getSalt()
+    {
+
     }
 
     public function eraseCredentials()
     {
-        // TODO: Implement eraseCredentials() method.
+
     }
 
 }
