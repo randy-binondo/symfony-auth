@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="041c1cb8-d756-4c28-9f7c-9a87b741ba0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/security/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Form/LoginForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20160207083131.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20160207083337.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20160207083347.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20160207091728.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20160207091756.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20160207092254.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20160412160008.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20160412165619.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/fixtures.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/fixtures.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/security/login.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/LoginForm.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
               <folding>
                 <element signature="e#120#160#0#PHP" expanded="true" />
               </folding>
@@ -77,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="234">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -371,18 +357,18 @@
       <workItem from="1569509543702" duration="4161000" />
       <workItem from="1569513765548" duration="59000" />
       <workItem from="1569568244422" duration="8302000" />
-      <workItem from="1569577136240" duration="2417000" />
+      <workItem from="1569577136240" duration="2459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14939000" />
+    <option name="totallyTimeSpent" value="14981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1366" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.260574" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.260574" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -395,7 +381,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -626,7 +612,7 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
           <folding>
             <element signature="e#120#160#0#PHP" expanded="true" />
           </folding>
@@ -635,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="234">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
